@@ -6,7 +6,9 @@ class JSXDemo extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>My Current Mood is: {getMood()}</h1>
+				<h1>My Current Mood is: {
+					getMood()
+					}</h1>
 			</div>
 		);
 	}

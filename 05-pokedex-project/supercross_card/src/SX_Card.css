@@ -1,0 +1,39 @@
+.SX_Card {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 1rem;
+  box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.SX_Card-name {
+  font-size: 120%;
+}
+
+.SX_Card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #0a84d5;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+  left: 50px;
+  position: relative;
+}
+
+.SX_Card-data {
+  font-size: 80%;
+}
+
+.SX_Card img{
+  transition: all ease 500ms;
+}
+
+.SX_Card img:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+body {
+  margin: 0;
+  font-family: 'Press Start 2P';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

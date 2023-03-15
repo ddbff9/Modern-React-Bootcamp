@@ -1,0 +1,10 @@
+.Sx_Top3 {
+  text-align: center;
+  display: flex;
+}
+
+.Sx_Top3-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

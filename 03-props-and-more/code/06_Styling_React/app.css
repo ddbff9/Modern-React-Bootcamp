@@ -4,10 +4,12 @@
 }
 
 .win {
-	background: green;
 	color: white;
+	background: green;
+	font-size: 50px;
 }
 .lose {
 	color: white;
 	background: red;
+	font-size: 50px;
 }

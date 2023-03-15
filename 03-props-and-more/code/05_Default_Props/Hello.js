@@ -4,10 +4,11 @@ class Hello extends React.Component {
     bangs: 1
   }
   render() {
-    let bangs = "!".repeat(this.props.bangs);
+    const {to, from, bangs} = this.props
+    let bang = "!".repeat(bangs);
     return (
       <div>
-        <p>Hi {this.props.to} from {this.props.from}{bangs}</p>
+        <p>Hi {to} from {from}{bang}</p>
       </div>
     );
   }
