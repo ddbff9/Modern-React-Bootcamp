@@ -1,0 +1,8 @@
+.Die {
+  display: inline;
+  margin: 20px;
+}
+.Die i {
+  font-size: 10em;
+  color: purple;
+}
